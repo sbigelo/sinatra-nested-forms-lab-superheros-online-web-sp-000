@@ -5,10 +5,10 @@
 
 
 
-    <% @team_heros.each_with_index do |key, i| %>
+    <% @team_heros.each do |key| %>
     <div class="hero">
-      <h3>Hero Name: <%= @hero_name[i] %> </h3>
-      <h4>Hero Power: <%= @hero_power[i] %> </h4>
-      <h4>Hero Biography: <%= @hero_bio[i] %> </h4>
+      <h3>Hero Name: <%= @hero_name %> </h3>
+      <h4>Hero Power: <%= @hero_power %> </h4>
+      <h4>Hero Biography: <%= @hero_bio %> </h4>
 
     <% end %>
